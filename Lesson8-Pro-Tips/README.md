@@ -9,3 +9,4 @@ Be a constant learner
   Figure out how you learn best - video, tutorials, writing projects
   Keep track of new tools and frameworks
 
+Linting and Prettier
