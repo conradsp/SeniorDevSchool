@@ -1,0 +1,30 @@
+version: '3.7'
+services:
+ postgres:
+  environment:
+    POSTGRES_USER: fix-app
+    POSTGRES_PASSWORD: fix-app!1
+    POSTGRES_DB: fix-app
+  image: postgres
+  restart: always
+  volumes:
+    - ./postgres-data:/var/lib/postgresql/data
+  ports:
+    - 5432:5432
+ web:
+  build:
+    context: .
+    target: build-web
+  environment:
+    - RAILS_SERVE_STATIC_FILES=true
+    - RAILS_ENV=production
+  entrypoint: /fix-app/docker-entrypoint.sh
+  command: bundle exec rails s -p 3000 -b '0.0.0.0'
+  restart: always
+  volumes:
+   - .:/fix-app
+   - ./prod/logrotate.d/fix-app:/etc/logrotate.d/fix-app
+  ports:
+   - 4000:3000
+  depends_on:
+   - postgres
