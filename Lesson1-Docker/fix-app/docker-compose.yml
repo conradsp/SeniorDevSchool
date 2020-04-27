@@ -3,7 +3,7 @@ services:
  postgres:
   environment:
     POSTGRES_USER: fix-app
-    POSTGRES_PASSWORD: fix-app!1
+    POSTGRES_PASSWORD: fix-app
     POSTGRES_DB: fix-app
   image: postgres
   restart: always
@@ -25,6 +25,6 @@ services:
    - .:/fix-app
    - ./prod/logrotate.d/fix-app:/etc/logrotate.d/fix-app
   ports:
-   - 4000:3000
+   - 4000:4000
   depends_on:
    - postgres

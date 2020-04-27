@@ -15,11 +15,12 @@ Prerequisites
 * Install and configure docker and docker compose in your development environment.
 * Install Node and NPM on your system (Node version 12 or higher). Bonus points
 for using nvm to allow multiple versions of Node 
+* Install Ruby and Rails on your system 
 
 
 # Exercises
 
-1) Write a Dockerfile for a Node app
+## Write a Dockerfile for a Node app
 
 The goal of this exercise is to create a simple node app that will run in a docker
 container. When the container is launched, it will listen on port 3000. When you 
@@ -31,12 +32,12 @@ navigate to http://localhost:3000, the app will respond with a 'Hello World' mes
 
 Bonus exercise:
     
-    Set an environment variable in the docker container. The variable will contain your name.
-    Read the environment variable from the Node app (if it is set) and say 'Hello <your name>'
-    instead of 'Hello World'.
+  Set an environment variable in the docker container. The variable will contain your name.
+  Read the environment variable from the Node app (if it is set) and say 'Hello <your name>'
+  instead of 'Hello World'.
 
 
-2) Create a docker-compose file for the application in the test-app folder
+## Create a docker-compose file for the application in the test-app folder
     
 The test-app requires a connection to a postgresql database called test-app. The credentials
 for the database can be found in the application.
@@ -50,4 +51,11 @@ for the database can be found in the application.
 
   * Bonus: install the postgresql client in the web app container and put a database health check in the docker-entrypoint script to make sure that the database is up before launching the web app
 
-3) Fix the docker-compose file (no connection to db container)
+## Fix the application in the fix-app folder
+
+This exercise requires you to fix a broken application. The application is a simple
+Rails app that displays a list of users from a database.
+
+  * First, look at the Dockerfile for this application and make sure that you understand what the Dockerfile is doing to build the rails image  
+  * Start the application and navigate to http://localhost:4000. The app should show a list of users from the database, but there is an error in the Docker configuration
+  * Update the docker files to get the application to run correctly. There are two issues that need to be resolved in order to get the applciation to run. 
