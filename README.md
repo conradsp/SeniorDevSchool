@@ -20,8 +20,8 @@ The Research section gives an overview of the topics that will be taught.
 
 It will also point you to other resources to learn. It's a core skill for a senior developer to be able to find resources online and learn from them. (And that doesn't mean just looking for code snippits on StackOverflow!)
 
-The Code section will tell you what prerequisites need to be installed in your development environment. From there, you will be invited  
+The Code section will tell you what prerequisites need to be installed in your development environment. From there, you will move on to a series of Exercises.
 
-The Problems section will outline issues for you to fix or tasks to accomplish on the codebase
+The Exercises section will outline issues for you to fix or tasks to accomplish. We believe that actually building working applications or fixing broken applications will help you learn and retain information in a way that reading or watchin tutorials will not. 
 
 
