@@ -10,7 +10,7 @@ Becoming a senior developer is not just a matter of learning more languages and 
 
 This repository contains a series of lessons that will help developers work on complex systems, debugging and solving problems. Each lesson will provide opportunities to learn about different aspects of development, like containerization, security, and performance. More importantly, each lesson will help the user to learn how to solve hard software engineering problems.
 
-A senior developer must also develop soft skills. Unfortunately, we can't teach you that. But we can hope these lessons help you hone your technical skills. And we encourage you to be a developer who is kind, generous, and helpful.
+A senior developer also has developed soft skills and knows how to be the kind of developer that other people want to work with. Unfortunately, we can't teach you that. We do hope these lessons help you hone your technical skills - and we encourage you to be a developer who is kind, generous, and helpful.
 
 # How it works
 
@@ -24,7 +24,4 @@ The Code section will tell you what prerequisites need to be installed in your d
 
 The Problems section will outline issues for you to fix or tasks to accomplish on the codebase
 
-# Open Source
-
-We are advocates of Open Source software. Rather than creating new systems from scratch, we are building from established code repositories. This provides exposure to some great projects out there!
 
