@@ -1,7 +1,11 @@
+# Lesson 8 - Testing
+
 Senior developers write tests
 
-Unit tests
-Integration tests
+* Unit tests
+* Integration tests
 
-Write a test suite
-Fi a failing test
+Exercises
+
+* Write a test suite
+* Fix a failing test

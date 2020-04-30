@@ -1,10 +1,11 @@
-Creating a cert - 
+# Lesson 4 - Certs and SSL
 
-What is SSL
-nginx
-certbot
-tomcat
+* What is SSL
 
-self-signing/creating a dev environment
+* Creating a cert - using certbot/LetsEncrypt
 
-Add certbot/lets encrypt and nginx to docker-compose from lesson 1 to serve the app securely 
+* Configuring an app to use a cert - both nginx and tomcat/Apache
+
+* self-signing/creating a dev environment
+
+* Add certbot/lets encrypt and nginx to docker-compose from lesson 1 to serve the app securely 
