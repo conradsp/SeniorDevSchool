@@ -8,9 +8,8 @@ Most modern applications run in containers. Using containers allows a software p
 * https://docs.docker.com/compose/
 * https://docker-curriculum.com/
 
-# Code
 
-Prerequisites
+# Prerequisites
 
 * Install and configure docker and docker compose in your development environment.
 * Install Node and NPM on your system (Node version 12 or higher). Bonus points

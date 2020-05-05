@@ -1,0 +1,13 @@
+# docker-compose.yml
+version: "3"
+services:
+  server1:
+    image: ubuntu:18.04
+    command: tail -f /dev/null
+    ports:
+      - "52022:22"
+  server2:
+    image: ubuntu:18.04
+    command: tail -f /dev/null
+    ports:
+      - "53022:22"
